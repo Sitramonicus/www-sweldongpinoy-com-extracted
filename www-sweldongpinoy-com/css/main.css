@@ -1,0 +1,119 @@
+#burger-menu {
+	display: none;
+}
+
+#action-menu {
+	display: inline-flex;
+}
+
+@media screen and (max-width: 840px) {
+	#burger-menu {
+		display: inline-block;
+		text-decoration:none;
+	}
+	#action-menu {
+		display: none;
+	}
+}
+
+body {
+	margin:0;
+	color: #666666;
+	font-family: "Roboto",sans-serif;
+	--mdc-theme-primary: #2196F3;
+	--mdc-theme-secondary: #4CAF50;
+}
+
+p {
+	text-align: justify;
+}
+
+.mdc-top-app-bar--fixed {
+	background-color: var(--mdc-theme-primary);
+}
+
+.mdc-top-app-bar__action-item {
+	margin: 16px;
+}
+
+.mdc-top-app-bar--fixed-adjust {
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.mdc-top-app-bar__title a, .mdc-top-app-bar__action-item {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.mdc-drawer {
+	width: 320px;
+}
+
+.mdc-drawer .mdc-drawer__title  {
+	color: var(--mdc-theme-primary);
+}
+
+.mdc-drawer .mdc-deprecated-list-item--activated {
+	color: var(--mdc-theme-primary);
+}
+
+.mdc-drawer .mdc-deprecated-list-item--activated .mdc-deprecated-list-item__graphic {
+	color: var(--mdc-theme-primary);
+}
+
+.mdc-layout-margined {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+	color: var(--mdc-theme-primary);
+}
+
+.mdc-text-field {
+	width: 100%;
+}
+
+.mdc-text-field:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-floating-label {
+	color: var(--mdc-theme-primary);
+}
+
+.mdc-text-field--focused .mdc-text-field__input:required~.mdc-floating-label::after, .mdc-text-field--focused .mdc-text-field__input:required~.mdc-notched-outline .mdc-floating-label::after {
+	color: var(--mdc-theme-primary);
+}
+
+.mdc-button {
+	margin: 16px auto 16px 16px;
+}
+.mdc-menu {
+	width: 192px;
+}
+
+.mdc-list-item {
+    height: 48px;
+	align-items: center;
+}
+
+.mdc-card {
+	padding: 16px;
+}
+
+.primary-colored {
+	color: var(--mdc-theme-primary);
+	font-weight: bolder;
+}
+
+.dropdown {
+	vertical-align: middle;
+}
+
+.apps-section {
+	margin-top: 20px;
+}
+
+img.badge {
+    width: 240px;
+    height: auto;
+    vertical-align: middle;
+}
